@@ -53,5 +53,5 @@ hmm.annotate_docbin('path_to_your_docbin_corpus')
 
 ## Step-by-step instructions
 
-More detailed instructions with a step-by-step example are available in the [Jupyter Notebook](Weak Supervision.ipynb). Don't forget to run it using Jupyter to get the visualisation for the NER annotations.
+More detailed instructions with a step-by-step example are available in the Jupyter Notebook `Weak Supervision.ipynb`. Don't forget to run it using Jupyter to get the visualisation for the NER annotations.
 
