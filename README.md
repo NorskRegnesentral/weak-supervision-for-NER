@@ -1,6 +1,6 @@
 # Weak supervision for NER
 
-Source code associated with the paper "Named Entity Recognition without Labelled Data: a Weak Supervision Approach]" submitted to ACL 2020.
+Source code associated with the paper "Named Entity Recognition without Labelled Data: a Weak Supervision Approach" submitted to ACL 2020.
 
 ## Requirements:
 
