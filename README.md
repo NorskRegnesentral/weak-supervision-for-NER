@@ -7,9 +7,10 @@ Source code associated with the paper "Named Entity Recognition without Labelled
 You should first make sure that the following Python packages are installed:
 - `spacy` (version >= 2.2)
 - `hmmlearn`
-- `snips-slu-parsers`
+- `snips-nlu-parsers`
 - `pandas`
 - `numba`
+- `scikit-learn`
 
 You should also install the `en_core_web_sm` and `en_core_web_md` models in Spacy.
 
@@ -19,7 +20,7 @@ To run the baselines, you will also need to have `snorkel` installed.
 
 Finally, you also need to download the following files and add them to the `data` directory:
 - [`conll2003_spacy.tar.gz`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/conll2003_spacy.tar.gz) (unpack the archive in the same directory)
-- [`BTC_spacy.tar.gz`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/SEC_spacy.tar.gz) (same)
+- [`BTC_spacy.tar.gz`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/BTC_spacy.tar.gz) (same)
 - [`SEC_spacy.tar.gz`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/SEC_spacy.tar.gz) (same)
 - [`wikidata.json`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/wikidata.json)
 - [`wikidata_small.json`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/wikidata_small.json)
