@@ -122,23 +122,6 @@ class Parser:
                 yield parse
             else:
                 yield None
-                           
-                
-    def pipe_news(self, news_stream):
-        """Applies the spacy parser to a stream of NewsDoc object and enrich it with annotations."""
-        
-        full_pipe = ((text, context) for news in news_stream for text, context in news._generate_chunks())   
-        
-        spacy_docs = self.nlp.pipe(full_pipe, as_tuples=True)
-            
-        for doc, (news_item, field, start, end) in spacy_docs:
-            try:
-                news_item._record_parse(doc, field, start, end)
-                if news_item.is_parsed():
-                    yield news_item
-            except BaseException as e:
-                raise e
-                print("ignoring", doc)
 
      
     def load(self, doc_bytes):
