@@ -1,6 +1,6 @@
-"","x"
-"1",100
-"2",77
-"3",0
-"4",269
-"5",12
+"parameter","value"
+"batch_size",100
+"n_states",77
+"draw",0
+"number_of_batches",269
+"most_reliable_source",12

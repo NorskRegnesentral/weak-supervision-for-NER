@@ -291,8 +291,8 @@ CM = function(id)
 
 
 
-#a function implementing confusion matrix Mixtures of Multinomoals
-HMM = function(id)
+#a function implementing confusion matrix Dependent Mixtures of Multinomoals
+DCM = function(id)
 {
   
   if (!dir.exists(paste0(getwd(),"/results/MixtureModelsCrowdHM/"))){
@@ -1341,7 +1341,7 @@ ACC= function(id)
 #run the models
 results = unlist(mclapply(X=sample.int(nseq,nseq,replace = F),FUN = CM,mc.preschedule = T,mc.cleanup = T,mc.cores = n.cores))
 print(results)
-results = unlist(mclapply(X=sample.int(nseq,nseq,replace = F),FUN = HMM,mc.preschedule = T,mc.cleanup = T,mc.cores = n.cores))
+results = unlist(mclapply(X=sample.int(nseq,nseq,replace = F),FUN = DCM,mc.preschedule = T,mc.cleanup = T,mc.cores = n.cores))
 print(results)
 results = unlist(mclapply(X=sample.int(nseq,nseq,replace = F),FUN = SEQ,mc.preschedule = T,mc.cleanup = T,mc.cores = n.cores))
 print(results)
