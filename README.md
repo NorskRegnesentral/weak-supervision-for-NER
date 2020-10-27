@@ -20,12 +20,12 @@ To run the baselines, you will also need to have `snorkel` installed.
 
 Finally, you also need to download the following files and add them to the `data` directory:
 - [`conll2003_spacy.tar.gz`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/conll2003_spacy.tar.gz) (unpack the archive in the same directory)
-- [`BTC_spacy.tar.gz`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/BTC_spacy.tar.gz) (same)
-- [`SEC_spacy.tar.gz`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/SEC_spacy.tar.gz) (same)
-- [`wikidata.json`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/wikidata.json)
-- [`wikidata_small.json`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/wikidata_small.json)
-- [`crunchbase.json`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/crunchbase.json)
-- [`conll2003.docbin`](https://github.com/anonymous-NLP/weak-supervision-for-NER/releases/download/acl2020/conll2003.docbin)
+- [`BTC_spacy.tar.gz`](https://github.com/NorskRegnesentral/weak-supervision-for-NER/releases/download/acl2020/BTC_spacy.tar.gz) (same)
+- [`SEC_spacy.tar.gz`](https://github.com/NorskRegnesentral/weak-supervision-for-NER/releases/download/acl2020/SEC_spacy.tar.gz) (same)
+- [`wikidata.json`](https://github.com/NorskRegnesentral/weak-supervision-for-NER/releases/download/acl2020/wikidata.json)
+- [`wikidata_small.json`](https://github.com/NorskRegnesentral/weak-supervision-for-NER/releases/download/acl2020/wikidata_small.json)
+- [`crunchbase.json`](https://github.com/NorskRegnesentral/weak-supervision-for-NER/releases/download/acl2020/crunchbase.json)
+- [`conll2003.docbin`](https://github.com/NorskRegnesentral/weak-supervision-for-NER/releases/download/acl2020/conll2003.docbin)
 
 ## Quick start
 
