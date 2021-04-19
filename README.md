@@ -1,5 +1,8 @@
 # Weak supervision for NER
 
+**BIG FAT WARNING: This codebase is now deprecated and has been replaced by our brand-new [`skweak`](https://github.com/NorskRegnesentral/skweak) framework, please check it out!**
+
+
 Source code associated with the paper "Named Entity Recognition without Labelled Data: a Weak Supervision Approach" accepted to ACL 2020.
 
 ## Requirements:
